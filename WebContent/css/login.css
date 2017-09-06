@@ -1,0 +1,57 @@
+#margin {
+    width: 1300px;
+    height: 530px;
+    margin: 50px auto;
+    padding: 0px;
+    border: 1px solid #DCDCDC;
+    background-color: #D3D3D3;
+}
+
+#margin .picture {
+    position: relative;
+    left: 20px;
+    top: 12px;
+}
+
+#margin .letterMargin {
+    width: 590px;
+    height: 100px;
+    margin: 12px 10px;
+    padding: 0px;
+    float: right;
+}
+
+h2 {
+    padding: 0px 180px 0px 270px;
+}
+
+#margin .letterMargin .logo {
+    position: relative;
+    left: 190px;
+    top: 60px;
+}
+
+#margin .letterMargin1 {
+    width: 380px;
+    height: 190px;
+    margin: 12px 0px;
+    padding: 92px 105px;
+}
+
+p {
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+
+#user,
+#pass {
+	padding-left:5px;
+    width: 200px;
+    height: 25px;
+}
+
+.buttons {
+    width: 75px;
+    height: 28px;
+}

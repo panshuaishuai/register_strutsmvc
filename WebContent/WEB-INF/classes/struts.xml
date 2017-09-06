@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<package name="struts2" extends="struts-default" namespace="/"
+		strict-method-invocation="false">
+
+		<!-- 显示登录界面 -->
+		<action name="loginAction">
+			<result>/WEB-INF/views/login.jsp</result>
+		</action>
+
+		<!-- 登录时跳转到结果界面 -->
+		<action name="loginResult" class="com.qingshixun.register.action.RegisterAction"
+			method="loginResult">
+			<result name="success">/WEB-INF/views/loginSuccess.jsp</result>
+			<result name="fail">/WEB-INF/views/loginFail.jsp</result>
+		</action>
+
+		<!-- 显示注册界面 -->
+		<action name="register">
+			<result>/WEB-INF/views/register.jsp</result>
+		</action>
+
+		<!-- 注册时跳转到结果界面 -->
+		<action name="registerResult" class="com.qingshixun.register.action.RegisterAction"
+			method="registerResult">
+			<result name="success">/WEB-INF/views/success.jsp</result>
+			<result name="fail">/WEB-INF/views/register.jsp</result>
+		</action>
+	</package>
+</struts>

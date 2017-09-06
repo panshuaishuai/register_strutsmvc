@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    margin: 0px auto;
+    width: 800px;
+    height: 570px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+header {
+    text-shadow: 0 -2px 2px red;
+}
+
+footer {
+    text-align: center;
+    line-height: 60px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.sex {
+    position: relative;
+    right: 128px;
+}
+
+#span {
+    position: relative;
+    right: 12px;
+}
+
+.hobby {
+    vertical-align: middle;
+}
+
+button {
+    width: 75px;
+    height: 28px;
+}
+
+input{
+    padding-left: 5px;
+}
+
+input:valid+span::after {
+    content: "√";
+    color: green;
+    padding-left: 10px;
+}
